@@ -1,0 +1,30 @@
+html{ display:block;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-family: sans-serif;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+html,body{
+  width: 100%;
+  height: 100%
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block }
+img { width: auto\9; height: auto; border: 0; -ms-interpolation-mode: bicubic }
+button, input, select, textarea { margin:0; font-size:100%;vertical-align: middle;font-family: \5FAE\8F6F\96C5\9ED1, "Helvetica Neue", Arial, Helvetica, sans-serif;}
+* { margin: 0; padding: 0; list-style: none; font-style:normal; text-decoration: none; -webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent; /* For some Androids */}
+body {  font-family: \5FAE\8F6F\96C5\9ED1, "Helvetica Neue", Arial, Helvetica, sans-serif; overflow-x:hidden; max-width:750px; margin: 0 auto; background:#fff; -webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none; color:#333;font-size:12px; font-style:normal;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+a{
+  text-decoration:none;
+  color:#fadda1;
+  }
+  
+  ::-webkit-scrollbar{
+    display:none;
+   
+    }
+    
+    .earnings_fixed{ scrollbar-width: none; -ms-overflow-style:none}
